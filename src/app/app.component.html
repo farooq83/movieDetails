@@ -1,0 +1,49 @@
+<div class="home">
+    <form>
+        <label for="search">Search</label>
+        <input type="text" id="search" placeholder="movie name">
+    </form>
+
+    <div class="main">
+        <img src="assets/image/abc.jpg" alt="img" id="poster">
+        <p class="rating">IMDB:7.3</p>
+        <div class="vl"></div>
+        <p class="movieName">Winsor McCay, the Famous Cartoonist of the N.Y. Herald and His Moving Comics</p>
+        <div class="genreButtons">
+            <button class="genre">Comedy</button>
+            <button class="genre">Action</button>
+            <button class="genre">Drama</button>
+        </div>
+        <p class="date">Released June 24 1911</p>
+    </div>
+
+    <div class="main">
+        <img src="assets/image/abc.jpg" alt="img" id="poster">
+        <p class="rating">IMDB:7.3</p>
+        <div class="vl"></div>
+        <p class="movieName">Winsor McCay, the Famous Cartoonist of the N.Y. Herald and His Moving Comics</p>
+        <div class="genreButtons">
+            <button class="genre">Comedy</button>
+            <button class="genre">Action</button>
+            <button class="genre">Drama</button>
+        </div>
+        <p class="date">Released June 24 1911</p>
+    </div>
+
+    <div class="main">
+        <img src="assets/image/abc.jpg" alt="img" id="poster">
+        <p class="rating">IMDB:7.3</p>
+        <div class="vl"></div>
+        <p class="movieName">Winsor McCay, the Famous Cartoonist of the N.Y. Herald and His Moving Comics</p>
+        <div class="genreButtons">
+            <button class="genre">Comedy</button>
+            <button class="genre">Action</button>
+            <button class="genre">Drama</button>
+        </div>
+        <p class="date">Released June 24 1911</p>
+    </div>
+
+    <ul *ngFor="let movie of movies">
+        <li>{{movie.title}}</li>
+    </ul>
+</div>
